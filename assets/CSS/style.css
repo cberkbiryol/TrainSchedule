@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(179, 180, 180, 0.9);
+    background-image: url(../images/bus.jpg);
+    background-repeat: repeat;
+    background-blend-mode: color-dodge
+}
+
+.jumbotron, 
+.card,
+.card-header {
+    background-color:rgba(63, 65, 65, 0.8); 
+    color:rgb(247, 248, 248)
+}
+
+.table {
+    opacity: 0.8;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
